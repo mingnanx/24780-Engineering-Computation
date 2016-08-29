@@ -4,8 +4,10 @@
 using namespace std;
 
 int main(){
-	int x = 1;
-	printf("Print to Console\n");
-	cout << "Print Something\n";
-	return x;
+	int a = 5;
+	double b = 6.0;
+
+
+	printf("a = %d, b = %lf\n", a,b);
+	return 0;
 }
